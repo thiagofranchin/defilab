@@ -27,7 +27,13 @@ docker compose up -d
 Quando o arquivo não esta na raiz e precisa especifica-lo
 
 ```
-docker compose -f infra/compose.yaml up (file)
+docker compose -f infra/compose.yaml up
+```
+
+Parar o container
+
+```
+docker compose -f infra/compose.yaml down
 ```
 
 Listar container
