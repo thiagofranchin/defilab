@@ -71,3 +71,13 @@ psql --host=localhost --username=postgres --port=5432
 - **DBMS**: `Postgres`
 - **Query**: `pg` (Usado para se conectar e fazer as queries)
 - **Migrations**: `node-pg-migrate` (Gerenciar as migrations)
+
+## Migrations
+
+### node-pg-migrations
+
+Criar migrations (--migrations-dir)
+
+```
+node-pg-migrate -m infra/migrations create <migration-name>
+```
