@@ -1,6 +1,6 @@
 # General documentation
 
-### Commands
+### Commands V2
 
 ```
 curl http://<ip> --insecure --verbose
