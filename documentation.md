@@ -76,6 +76,8 @@ psql --host=localhost --username=postgres --port=5432
 
 ### node-pg-migrations
 
+[node-pg-migrate documentation](https://salsita.github.io/node-pg-migrate/api)
+
 Criar migrations (--migrations-dir)
 
 ```
