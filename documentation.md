@@ -10,42 +10,57 @@ curl http://<ip> --insecure --verbose
 curl https://<ip> --insecure --verbose --header 'Host: <domain>'
 ```
 
+```
+curl -s -X GET https://url.com/api/v1/status | python3 -m json.tool
+
 ## Docker
 
 Subir container
 
 ```
+
 docker compose up
+
 ```
 
 Para rodar em background (detach)
 
 ```
+
 docker compose up -d
+
 ```
 
 Quando o arquivo não esta na raiz e precisa especifica-lo
 
 ```
+
 docker compose -f infra/compose.yaml up
+
 ```
 
 Parar o container
 
 ```
+
 docker compose -f infra/compose.yaml down
+
 ```
 
 Listar container
 
 ```
+
 docker ps -a
+
 ```
 
 Recriar Container
 
 ```
+
 docker compose up -d --force-recreate
+
 ```
 
 ## Linux
@@ -53,17 +68,23 @@ docker compose up -d --force-recreate
 Atualizar pacotes
 
 ```
+
 sudo apt update
+
 ```
 
 ## Postgres
 
 ```
+
 sudo apt install postgresql-client
+
 ```
 
 ```
+
 psql --host=localhost --username=postgres --port=5432
+
 ```
 
 # Banco de dados
@@ -81,5 +102,9 @@ psql --host=localhost --username=postgres --port=5432
 Criar migrations (--migrations-dir)
 
 ```
+
 node-pg-migrate -m infra/migrations create <migration-name>
+
+```
+
 ```
