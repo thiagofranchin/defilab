@@ -12,6 +12,12 @@ curl https://<ip> --insecure --verbose --header 'Host: <domain>'
 
 ```
 curl -s -X GET https://url.com/api/v1/status | python3 -m json.tool
+```
+
+```
+watch -n 1 'curl -s https://defilab.com.br
+/api/v1/status | jq'
+```
 
 ## Docker
 
@@ -104,6 +110,8 @@ Criar migrations (--migrations-dir)
 ```
 
 node-pg-migrate -m infra/migrations create <migration-name>
+
+```
 
 ```
 
