@@ -148,3 +148,34 @@ Checar dependencias deprecated
 ```
 npm outdated
 ```
+
+### Link para a página no NPM do npm-check-updates
+
+[npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+
+### Comando para checar as dependencias deprecated usando o npm-check-updates no modo interativo:
+
+```
+npx npm-check-updates -i
+```
+
+## Git
+
+### Add as alterações no mesmo commit
+
+```
+git add -A && git commit --amend --no-edit
+```
+
+## Codespaces GitHub
+
+### Limpa o cache caso de acabar o espaço
+
+```
+rm -rf /home/codespace/.npm/_logs
+npm cache clean --force
+
+// Parar os serviços do Docker
+npm run services:down
+docker system prune -a
+```
