@@ -1,6 +1,6 @@
 # General documentation
 
-### Commands V2
+### Commands with Curl
 
 ```
 curl http://<ip> --insecure --verbose
@@ -113,6 +113,38 @@ node-pg-migrate -m infra/migrations create <migration-name>
 
 ```
 
-```
+## ESLint and Prettier
 
+[eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest)
+
+[eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+
+## Conventional Commits
+
+[Site do Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+### Link para a documentação do commitlint
+
+[commitlint.js.org](https://commitlint.js.org/)
+
+### Links para as páginas no NPM dos módulos instalados
+
+[@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)
+
+[@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional)
+
+### Link para a documentação do Husky
+
+[Husky](https://typicode.github.io/husky/)
+
+### Link para a página no NPM do commitizen
+
+[Commitizen](https://www.npmjs.com/package/commitizen)
+
+### Peer Dependencies
+
+Checar dependencias deprecated
+
+```
+npm outdated
 ```
