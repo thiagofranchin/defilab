@@ -168,6 +168,7 @@ git add -A && git commit --amend --no-edit
 ```
 
 Para commitar projetos seguindo os padrões implícitos.
+
 ```
 npm run commit
 ```
