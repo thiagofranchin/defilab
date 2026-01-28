@@ -167,6 +167,11 @@ npx npm-check-updates -i
 git add -A && git commit --amend --no-edit
 ```
 
+Para commitar projetos seguindo os padrões implícitos.
+```
+git run commit
+```
+
 ## Codespaces GitHub
 
 ### Limpa o cache caso de acabar o espaço
