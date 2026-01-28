@@ -169,7 +169,7 @@ git add -A && git commit --amend --no-edit
 
 Para commitar projetos seguindo os padrões implícitos.
 ```
-git run commit
+npm run commit
 ```
 
 ## Codespaces GitHub
