@@ -185,3 +185,9 @@ npm cache clean --force
 npm run services:down
 docker system prune -a
 ```
+
+## API
+
+- [swr](https://www.npmjs.com/package/swr)
+- [react-query](https://www.npmjs.com/package/react-query)
+- [@tanstack/react-query](https://www.npmjs.com/package/@tanstack/react-query)
